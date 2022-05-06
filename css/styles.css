@@ -1,0 +1,147 @@
+body {
+  font-family: 'Barlow', sans-serif;
+  margin: 1.5em;
+  background: white;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+a.logo {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  -webkit-transform: translate(-50%, 1rem);
+          transform: translate(-50%, 1rem);
+  font-size: 5rem;
+  color: tan;
+  font-weight: bold;
+}
+
+a.logo .dynamics {
+  color: black;
+}
+
+.logoscale {
+  position: absolute;
+  top: 10em;
+  left: 0;
+  background: url("../Images/Alpha Dynamics.jpg");
+  background-size: cover;
+  background-position-x: 12em;
+  background-position-y: 20%;
+  height: 100vh;
+  width: 100vh;
+  z-index: -1;
+}
+
+nav {
+  position: fixed;
+  left: 2%;
+  top: 5%;
+  height: 50vh;
+  width: 25%;
+  z-index: 900;
+  text-transform: none;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 8em;
+}
+
+nav ul a {
+  color: black;
+  padding: .75em 1.5em;
+  display: block;
+}
+
+nav ul a:hover {
+  background: tan;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header img {
+  width: 3em;
+  margin-top: -.6em;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 2em;
+  line-height: 3.3rem;
+}
+
+p.projlist {
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: left;
+  position: absolute;
+  right: 10%;
+  top: 15%;
+  -webkit-transform: translate(-30%, -20%);
+          transform: translate(-30%, -20%);
+}
+
+ul.projects {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.subhead {
+  font-size: 1rem;
+  font-weight: 600;
+  display: block;
+}
+
+section.hero {
+  color: 'white';
+  top: 14%;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  width: 100%;
+  position: absolute;
+}
+
+div.feature {
+  top: 15rem;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.hero {
+  color: black;
+}
+
+div.content {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  -webkit-transform: translate(25%, 25%);
+          transform: translate(25%, 25%);
+  text-align: left;
+}
+
+.video {
+  width: 75%;
+  height: 75%;
+  bottom: 5rem;
+}
+/*# sourceMappingURL=styles.css.map */
