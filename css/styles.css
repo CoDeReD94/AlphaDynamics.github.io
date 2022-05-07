@@ -150,16 +150,32 @@ div.content {
 }
 
 .imgcrop {
-  width: 60%;
+  width: 30%;
   position: absolute;
-  left: 50%;
+  left: 60%;
   top: 12rem;
-  -webkit-transform: translate(-50%, 0%);
-          transform: translate(-50%, 0%);
+  -webkit-transform: translate(-10%, 0%);
+          transform: translate(-10%, 0%);
 }
 
 .images {
-  border: 20vh;
+  width: 70%;
+  border: 200rem;
   border-color: black;
+}
+
+.description {
+  font-size: 1.3rem;
+  width: 30%;
+  height: 5rem;
+  position: absolute;
+  top: 12rem;
+  left: 20%;
+  text-align: left;
+}
+
+.description a {
+  font-size: 1.3rem;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=styles.css.map */
